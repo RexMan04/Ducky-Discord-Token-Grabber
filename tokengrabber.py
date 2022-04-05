@@ -1,7 +1,6 @@
 import os
 import re
 import json
-import webbrowser
 
 from urllib.request import Request, urlopen
 
