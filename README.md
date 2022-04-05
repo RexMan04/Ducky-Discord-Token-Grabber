@@ -5,7 +5,7 @@ To start, move all the files to your ducky. (Need to encode the .dd file if not 
 
 I did not make the python script that is included in these files. [The original is here](https://github.com/wodxgod/Discord-Token-Grabber)
 
-To run this script, follow step 2 in the previous link in the "How to use" section.
+To setup the script, follow step 2 in the previous link in the "How to use" section.
 
 After that, everything should be good to go.
 
