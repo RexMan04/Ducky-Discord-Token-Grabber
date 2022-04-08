@@ -7,7 +7,7 @@ I did not make the python script that is included in these files, but did edit t
 
 To setup the script, follow step 2 in the previous link in the "How to use" section.
 
-Then, change the settings to your preference by switching them from TRUE to FALSE or vice-versa.
+Then, change the settings inside the python script to your preference by switching them from TRUE to FALSE or vice-versa.
 
 I haven't been able to test this on a machine that doesn't have python installed so let me know if it doesn't work.
 A temporary workaround for this is the convert the python script to .exe and modify the .ps1 file to either run it from the ducky, or download it, run it, then delete it.
